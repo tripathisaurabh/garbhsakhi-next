@@ -49,18 +49,55 @@ export default function Footer() {
         <div>
           <h4 className="font-extrabold mb-3 text-lg">Company</h4>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><Link href="/About" className="hover:text-[#FADADD] transition">About Us</Link></li>
-            <li><Link href="/Contact" className="hover:text-[#FADADD] transition">Contact</Link></li>
-            <li><Link href="/Career" className="hover:text-[#FADADD] transition">Careers</Link></li>
+            <li>
+              <Link
+                href={"/About" as any}
+                className="hover:text-[#FADADD] transition"
+              >
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={"/Contact" as any}
+                className="hover:text-[#FADADD] transition"
+              >
+                Contact Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={"/Career" as any}
+                className="hover:text-[#FADADD] transition"
+              >
+                Careers
+              </Link>
+            </li>
           </ul>
+
+
         </div>
 
         {/* legal */}
         <div>
           <h4 className="font-extrabold mb-3 text-lg">Legal</h4>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><Link href="/privacy" className="hover:text-[#FADADD] transition">Privacy Policy</Link></li>
-            <li><Link href="/terms" className="hover:text-[#FADADD] transition">Terms & Conditions</Link></li>
+            <li>
+              <Link
+                href={"/Privacy" as any}
+                className="hover:text-[#FADADD] transition"
+              >
+                Privacy Policy
+              </Link>
+            </li>
+             <li>
+              <Link
+                href={"/terms" as any}
+                className="hover:text-[#FADADD] transition"
+              >
+               Terms & Conditions
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
