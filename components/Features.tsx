@@ -19,7 +19,7 @@ export default function Features() {
     },
     {
       icon: <BarChart3 className="w-8 h-8 text-[#9C27B0]" />,
-      title: "Smart Dashboard",
+      title: "Doctor-Focused Dashboard",
       desc: "Comprehensive insights, compliance analytics, and predictive trends — all in one intuitive view.",
     },
     {
